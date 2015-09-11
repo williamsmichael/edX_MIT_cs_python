@@ -1,6 +1,6 @@
 # Introduction to Computer Science and Programming Using Python
 
-This is a repo of problem sets throughout the [course on edX.org course](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!/).
+This is a repo of problem sets throughout the [course on edX.org](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!/).
 
 ### About this course 
 
