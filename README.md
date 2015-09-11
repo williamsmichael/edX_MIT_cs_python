@@ -1,6 +1,8 @@
 # Introduction to Computer Science and Programming Using Python
 
-### About this course [link](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!/)
+### About this course 
+
+[Link to course](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-5#!/)
 
 6.00.1x is an introduction to computer science as a tool to solve real-world analytical problems.
 
