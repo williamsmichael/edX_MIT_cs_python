@@ -55,6 +55,35 @@ In the case of ties, print the first substring. For example, if s = 'abcbcd', th
 Longest substring in alphabetical order is: abc
 """
 
+# s = 'azcbobobegghakl'
+start = 0
+iterator = 0
+finish = 1
+subStr = ""
+subStrFinal = ""
+
+
+while finish < len(s):
+  if s[iterator] <= s[finish]:
+    subStr = s[start:finish + 1]
+    iterator += 1
+    finish += 1
+    # print(start, iterator, finish)
+  else:
+    if len(subStr) > len(subStrFinal):
+      subStrFinal = subStr
+    start = finish
+    iterator = finish
+    finish += 1
+    # print(start, iterator, finish)
+print("Longest substring in alphabetical order is: {}".format(subStrFinal))
+
+
+
+
+
+
+
 
 
 
