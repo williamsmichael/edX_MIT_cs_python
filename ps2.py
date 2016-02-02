@@ -123,7 +123,7 @@ while abs(unpaid) >= epsilon:
     
     # reset if reaches 12-month span
     if month == 12:
-        print "-----------------------------" + str(lower) + " | " + str(upper) + " = " + str(minimum)
+        # print "-----------------------------" + str(lower) + " | " + str(upper) + " = " + str(minimum)
         if unpaid > 0:
             lower = minimum
         else:
@@ -135,7 +135,7 @@ while abs(unpaid) >= epsilon:
         
     # call and bind the functions
     unpaid = monthlyUnpaidBalance(balance, minimum)
-    print(str(month) + "|" + str(unpaid))
+    # print(str(month) + "|" + str(unpaid))
     balance = updatedBalanceEachMonth(unpaid, monthlyInterestRate)
     
     # increment month
